@@ -52,27 +52,31 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/maling/Desktop/FIXTEST/test"
+            argument = "/Users/maling/Desktop/Student/Student/YKTStudent"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-modifyProjectName test&gt;MGProject"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-modifyClassNamePrefix /Users/maling/Desktop/FIXTEST/test/test.xcodeproj MM&gt;GG"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-spamCodeOut /users/maling/Desktop/LLSLogs llslog"
-            isEnabled = "YES">
+            argument = "-spamCodeOut "
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-ignoreDirNames Category"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-deleteComments"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-modifyAPIName"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
