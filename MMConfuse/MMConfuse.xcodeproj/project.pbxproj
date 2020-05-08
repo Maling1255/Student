@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F83AA3BD24652C22004EED55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F83AA3BC24652C22004EED55 /* AppDelegate.m */; };
+		F83AA3C024652C22004EED55 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F83AA3BF24652C22004EED55 /* SceneDelegate.m */; };
+		F83AA3C324652C22004EED55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83AA3C224652C22004EED55 /* ViewController.m */; };
+		F83AA3C624652C22004EED55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83AA3C424652C22004EED55 /* Main.storyboard */; };
+		F83AA3C824652C23004EED55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83AA3C724652C23004EED55 /* Assets.xcassets */; };
+		F83AA3CB24652C23004EED55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83AA3C924652C23004EED55 /* LaunchScreen.storyboard */; };
+		F83AA3CE24652C23004EED55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F83AA3CD24652C23004EED55 /* main.m */; };
+		F83AA3D824652E33004EED55 /* MMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F83AA3D724652E33004EED55 /* MMPerson.m */; };
+		F83AA3E6246532E4004EED55 /* Confuse.py in Resources */ = {isa = PBXBuildFile; fileRef = F83AA3DF246532E3004EED55 /* Confuse.py */; };
+		F83AA3E7246532E4004EED55 /* ignoreKey.txt in Resources */ = {isa = PBXBuildFile; fileRef = F83AA3E0246532E3004EED55 /* ignoreKey.txt */; };
+		F83AA3E8246532E4004EED55 /* start.sh in Resources */ = {isa = PBXBuildFile; fileRef = F83AA3E1246532E3004EED55 /* start.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F83AA3B824652C22004EED55 /* MMConfuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMConfuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83AA3BB24652C22004EED55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F83AA3BC24652C22004EED55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F83AA3BE24652C22004EED55 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F83AA3BF24652C22004EED55 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F83AA3C124652C22004EED55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F83AA3C224652C22004EED55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F83AA3C524652C22004EED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F83AA3C724652C23004EED55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F83AA3CA24652C23004EED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F83AA3CC24652C23004EED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83AA3CD24652C23004EED55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F83AA3D624652E33004EED55 /* MMPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPerson.h; sourceTree = "<group>"; };
+		F83AA3D724652E33004EED55 /* MMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPerson.m; sourceTree = "<group>"; };
+		F83AA3D924652EF1004EED55 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F83AA3DB246532E3004EED55 /* Confuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Confuse.h; sourceTree = "<group>"; };
+		F83AA3DF246532E3004EED55 /* Confuse.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Confuse.py; sourceTree = "<group>"; };
+		F83AA3E0246532E3004EED55 /* ignoreKey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ignoreKey.txt; sourceTree = "<group>"; };
+		F83AA3E1246532E3004EED55 /* start.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = start.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83AA3B524652C22004EED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F83AA3AF24652C22004EED55 = {
+			isa = PBXGroup;
+			children = (
+				F83AA3DA246532E3004EED55 /* CodeConfuse */,
+				F83AA3BA24652C22004EED55 /* MMConfuse */,
+				F83AA3B924652C22004EED55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F83AA3B924652C22004EED55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83AA3B824652C22004EED55 /* MMConfuse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83AA3BA24652C22004EED55 /* MMConfuse */ = {
+			isa = PBXGroup;
+			children = (
+				F83AA3BB24652C22004EED55 /* AppDelegate.h */,
+				F83AA3BC24652C22004EED55 /* AppDelegate.m */,
+				F83AA3BE24652C22004EED55 /* SceneDelegate.h */,
+				F83AA3BF24652C22004EED55 /* SceneDelegate.m */,
+				F83AA3D424652E0F004EED55 /* Home */,
+				F83AA3C424652C22004EED55 /* Main.storyboard */,
+				F83AA3C724652C23004EED55 /* Assets.xcassets */,
+				F83AA3C924652C23004EED55 /* LaunchScreen.storyboard */,
+				F83AA3D924652EF1004EED55 /* PrefixHeader.pch */,
+				F83AA3CC24652C23004EED55 /* Info.plist */,
+				F83AA3CD24652C23004EED55 /* main.m */,
+			);
+			path = MMConfuse;
+			sourceTree = "<group>";
+		};
+		F83AA3D424652E0F004EED55 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F83AA3C124652C22004EED55 /* ViewController.h */,
+				F83AA3C224652C22004EED55 /* ViewController.m */,
+				F83AA3D524652E1D004EED55 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F83AA3D524652E1D004EED55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F83AA3D624652E33004EED55 /* MMPerson.h */,
+				F83AA3D724652E33004EED55 /* MMPerson.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F83AA3DA246532E3004EED55 /* CodeConfuse */ = {
+			isa = PBXGroup;
+			children = (
+				F83AA3DB246532E3004EED55 /* Confuse.h */,
+				F83AA3DF246532E3004EED55 /* Confuse.py */,
+				F83AA3E0246532E3004EED55 /* ignoreKey.txt */,
+				F83AA3E1246532E3004EED55 /* start.sh */,
+			);
+			path = CodeConfuse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83AA3B724652C22004EED55 /* MMConfuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83AA3D124652C23004EED55 /* Build configuration list for PBXNativeTarget "MMConfuse" */;
+			buildPhases = (
+				F83AA3B424652C22004EED55 /* Sources */,
+				F83AA3B524652C22004EED55 /* Frameworks */,
+				F83AA3B624652C22004EED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMConfuse;
+			productName = MMConfuse;
+			productReference = F83AA3B824652C22004EED55 /* MMConfuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83AA3B024652C22004EED55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "maling ";
+				TargetAttributes = {
+					F83AA3B724652C22004EED55 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F83AA3B324652C22004EED55 /* Build configuration list for PBXProject "MMConfuse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F83AA3AF24652C22004EED55;
+			productRefGroup = F83AA3B924652C22004EED55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83AA3B724652C22004EED55 /* MMConfuse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83AA3B624652C22004EED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83AA3E7246532E4004EED55 /* ignoreKey.txt in Resources */,
+				F83AA3E8246532E4004EED55 /* start.sh in Resources */,
+				F83AA3E6246532E4004EED55 /* Confuse.py in Resources */,
+				F83AA3CB24652C23004EED55 /* LaunchScreen.storyboard in Resources */,
+				F83AA3C824652C23004EED55 /* Assets.xcassets in Resources */,
+				F83AA3C624652C22004EED55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83AA3B424652C22004EED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83AA3C324652C22004EED55 /* ViewController.m in Sources */,
+				F83AA3BD24652C22004EED55 /* AppDelegate.m in Sources */,
+				F83AA3CE24652C23004EED55 /* main.m in Sources */,
+				F83AA3D824652E33004EED55 /* MMPerson.m in Sources */,
+				F83AA3C024652C22004EED55 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F83AA3C424652C22004EED55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83AA3C524652C22004EED55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F83AA3C924652C23004EED55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83AA3CA24652C23004EED55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F83AA3CF24652C23004EED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F83AA3D024652C23004EED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F83AA3D224652C23004EED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MMConfuse/PrefixHeader.pch";
+				INFOPLIST_FILE = MMConfuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.malgee.MMConfuse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F83AA3D324652C23004EED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MMConfuse/PrefixHeader.pch";
+				INFOPLIST_FILE = MMConfuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.malgee.MMConfuse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83AA3B324652C22004EED55 /* Build configuration list for PBXProject "MMConfuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83AA3CF24652C23004EED55 /* Debug */,
+				F83AA3D024652C23004EED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83AA3D124652C23004EED55 /* Build configuration list for PBXNativeTarget "MMConfuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83AA3D224652C23004EED55 /* Debug */,
+				F83AA3D324652C23004EED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83AA3B024652C22004EED55 /* Project object */;
+}

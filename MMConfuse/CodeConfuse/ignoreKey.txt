@@ -1,0 +1,5 @@
+systemFunction
+dealloc
+
+ignoreTestFunction
+ignoreFunction2
